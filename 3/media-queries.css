@@ -1,0 +1,40 @@
+@media (max-width: 600px) {
+    .mobile-d-none {
+        display: none;
+    }
+
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+
+    .hero-container .left {
+        width: 100%;
+    }
+
+    .video {
+        margin-top: 0;
+    }
+
+    .mobile-flex-col {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-4xl);
+    }
+
+    .key-section div div {
+        gap: var(--spacing-sm);
+    }
+
+    .key-section h4 {
+        min-height: var(--spacing-xl);
+    }
+
+    .reviews-title {
+        width: 100%;
+    }
+
+    .reviews-title h2 {
+        text-align: start;
+        padding-left: var(--spacing-sm);
+    }
+}
